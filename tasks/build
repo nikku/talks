@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# build talks with pfwr to <gh-pages>
+
+set -e
+
+echo "installing pfwr"
+npm i -g pfwr
+
+for d in ./talks/*/
+do
+  if [ -f "$d/presentation.md" ]; then
+    echo "building $d"
+
+    npx pfwr "${d}presentation.md"
+  fi
+done
