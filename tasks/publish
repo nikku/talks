@@ -5,23 +5,18 @@
 set -e
 shopt -s extglob
 
-WORK_DIR="$(pwd)"
-TEMP_DIR=$(mktemp -d)
-GH_PAGES_DIR="$TEMP_DIR/gh-pages"
+WORK_DIR=$(pwd)
+GH_PAGES_DIR=$(mktemp -d)
 
-echo "Publishing example to <gh-pages>"
+echo "Publishing talks to <gh-pages>"
 
-# create work dir
-mkdir -p "$TEMP_DIR"
-
-# setup gh-pages branch
-git clone --depth=1 "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/nikku/talks.git" "$GH_PAGES_DIR"
+git clone --depth=1 "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/nikku/talks.git" $GH_PAGES_DIR
 
 cd "$GH_PAGES_DIR"
 git checkout --orphan gh-pages
 git reset --hard
 
-(cd "$WORK_DIR" && cp -r talks/* $GH_PAGES_DIR)
+cp -r ${WORK_DIR}/talks/* .
 
 
 if [[ "x$SKIP_COMMIT" = "x" ]]; then
