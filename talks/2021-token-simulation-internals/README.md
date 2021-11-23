@@ -1,6 +1,6 @@
-# Types Without TypeScript
+# Making of Token Simulation
 
-A Camunda Tech Talk I gave early 2021.
+A Camunda Tech talk I gave mid 2021.
 
 [![Screenshot](./screenshot.png)](https://nikku.github.io/talks/2021-token-simulation-internals/presentation.html)
 
