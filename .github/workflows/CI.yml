@@ -21,5 +21,7 @@ jobs:
     - name: Publish
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
       env:
+        GIT_USER_NAME: ${{secrets.GIT_USER_NAME}}
+        GIT_USER_EMAIL: ${{secrets.GIT_USER_EMAIL}}
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: tasks/publish
