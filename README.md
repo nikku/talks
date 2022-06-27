@@ -4,6 +4,10 @@
 
 A list of (technical) talks I have given in recent years.
 
+## 2022
+
+* [Token Simulation - Your next BPMN engine](./talks/2022-token-simulation-next-bpmn-engine) ([recording](https://page.camunda.com/ccs2022-bpmn-js-token-simulation))
+
 ## 2021
 
 * [Token Simulation](./talks/2021-token-simulation#readme)
