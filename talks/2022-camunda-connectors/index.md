@@ -85,7 +85,7 @@ theme=eco
 
 ---
 
-### Takeaways
+### Core Automation Takeaways
 
 * Builder is _Developer_ persona
 * Single package contains everything
@@ -156,6 +156,10 @@ Re-usable building blocks for *modeling* + *execution*.
 
 ---
 
+![Element Template Connector Relation](./element-template-connector-relation.png)
+
+---
+
 ### Connector SDK
 
 * Foundation for re-usable behavior ("run-time")
@@ -214,9 +218,9 @@ public class Main {
 
 ### Takeaways
 
-*Build* + *ship* *re-usable building blocks*...
-or *re-use what is already there* (community / market place?)
-while we enforce *best practices* for implementation and ensure *safe re-use*
+* Our goal is to enable users to *build* + *ship* *re-usable building blocks*, but also to *use* what is already there (community / market place?)
+
+* Element Templates / Connector SDK enforce *best practices* for implementation and ensure *safe re-use*
 
 ---
 
