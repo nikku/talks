@@ -214,9 +214,9 @@ public class Main {
 
 ### Takeaways
 
-* *Build* + *ship* *re-usable building blocks*
-* *Re-use what is already there* (community / market place?)
-* Element Templates / Connector SDK enforce *best practices* for implementation and ensure *safe re-use*
+*Build* + *ship* *re-usable building blocks*...
+or *re-use what is already there* (community / market place?)
+while we enforce *best practices* for implementation and ensure *safe re-use*
 
 ---
 
