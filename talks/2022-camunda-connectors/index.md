@@ -12,7 +12,7 @@ author: Nico Rehwaldt<https://github.com/nikku>
 
 ---
 
-## Camunda for _professional Developers_
+## Camunda for _Professional Developers_
 
 ---
 
@@ -104,11 +104,11 @@ theme=funky
 
 ---
 
-## Camunda for _larger organizations_
+## Camunda for _Larger Organizations_
 
 ---
 
-## Camunda for _everyone else really_
+## Camunda for _Everyone Else Really_
 
 ---
 
@@ -218,7 +218,7 @@ public class Main {
 
 ### Takeaways
 
-* Our goal is to enable users to *build* + *ship* *re-usable building blocks*, but also to *use* what is already there (community / market place?)
+* Our goal is to enable users to *create* + *ship* *re-usable building blocks*, but also to *use* what is already there (community / market place?)
 
 * Element Templates / Connector SDK enforce *best practices* for implementation and ensure *safe re-use*
 
@@ -227,7 +227,7 @@ public class Main {
 ### Next Steps
 
 * Ship Element Templates: Conditional properties
-* Ship (publish) Connector SDK (outbound)
+* Ship (publish) [Connector SDK (outbound)](https://github.com/camunda/connector-sdk)
 * Investigate [Connector SDK (inbound)](https://miro.com/app/board/uXjVOnWkTP4=/)
 * Build more connectors (inhouse)
 
