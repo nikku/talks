@@ -1,7 +1,15 @@
 ---
 title: Contextual Language Parsing
 description: Lessons learned while implementing a DMN FEEL parser
-author: Nico Rehwaldt<https://github.com/nikku>
+author: nikku
+authorTwitter: '@nrehwaldt'
+image: https://nikku.github.io/talks/2022-context-sensitive-language-parsing-feel/context-sensitive-feel.png
+origin: https://github.com/nikku/talks/tree/main/2022-context-sensitive-language-parsing-feel
+tags:
+  - language parsing
+  - DMN FEEL
+type: article
+
 ---
 
 # Contextual Language Parsing
