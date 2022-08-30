@@ -19,6 +19,7 @@ git reset --hard
 cp -r ${WORK_DIR}/* .
 
 # preserve legacy links to presentations
+mkdir talks
 cp -r ${WORK_DIR}/* talks
 
 if [[ "x$SKIP_COMMIT" = "x" ]]; then
