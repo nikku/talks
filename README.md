@@ -8,6 +8,7 @@ A list of (technical) talks I have given in recent years.
 
 * [Token Simulation - Your next BPMN engine](./2022-token-simulation-next-bpmn-engine) ([recording](https://page.camunda.com/ccs2022-bpmn-js-token-simulation))
 * [Camunda Connectors](https://nikku.github.io/talks/2022-camunda-connectors/)
+* [Contextual Language Parsing (FEEL)](https://nikku.github.io/talks/2022-context-sensitive-language-parsing-feel/)
 
 ## 2021
 
