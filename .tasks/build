@@ -9,9 +9,9 @@ npm i -g pfwr
 
 for d in ./*/
 do
-  if [ -f "$d/presentation.md" ]; then
+  if [ -f "$d/index.md" ]; then
     echo "building $d"
 
-    npx pfwr "${d}presentation.md"
+    npx pfwr "${d}index.md"
   fi
 done
