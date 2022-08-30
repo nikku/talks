@@ -16,8 +16,10 @@ cd "$GH_PAGES_DIR"
 git checkout --orphan gh-pages
 git reset --hard
 
-cp -r ${WORK_DIR}/talks/* .
+cp -r ${WORK_DIR}/* .
 
+# preserve legacy links to presentations
+cp -r ${WORK_DIR}/* talks
 
 if [[ "x$SKIP_COMMIT" = "x" ]]; then
 
