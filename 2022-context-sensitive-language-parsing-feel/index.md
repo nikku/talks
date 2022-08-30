@@ -130,15 +130,15 @@ Yes.
 
 ---
 
+![context sensitive feel](./context-sensitive-feel.png)
+
+---
+
 ## Implications
 
 * Parsing is *context senstivie*
 * Tokenizing is *context sensitive*
 * Tokenize, parse and interpret at the same time
-
----
-
-![context sensitive feel](./context-sensitive-feel.png)
 
 ---
 
