@@ -6,7 +6,7 @@ author: Nico Rehwaldt<https://github.com/nikku>
 
 # Contextual Language Parsing
 
-#### Lessons learned while implementing a DMN FEEL parser
+#### Lessons learned while implementing a [parser](https://github.com/nikku/lezer-feel) and [interpreter](https://github.com/nikku/feelin) for DMN FEEL
 
 <small><a href="https://github.com/nikku">Nico Rehwaldt</a></small>
 
