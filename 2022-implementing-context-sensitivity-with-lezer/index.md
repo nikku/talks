@@ -15,7 +15,7 @@ type: article
 
 # Contextual Language Parsing - Vol 2.
 
-#### (Ab)using [Lezer](https://lezer.codemirror.net/) to build context sensitivity into lezer-feel.
+#### (Ab)using [Lezer](https://lezer.codemirror.net/) to build context sensitivity into [lezer-feel](https://github.com/nikku/lezer-feel).
 
 <small><a href="https://github.com/nikku">Nico Rehwaldt</a></small>
 
