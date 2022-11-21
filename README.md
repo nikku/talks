@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/nikku/talks/actions/workflows/CI.yml/badge.svg)](https://github.com/nikku/talks/actions/workflows/CI.yml)
 
-A list of (technical) talks I have given in recent years.
+A list of (technical) talks I gave in recent years.
 
 ## 2022
 
