@@ -10,6 +10,7 @@ A list of (technical) talks I gave in recent years.
 * [Camunda Connectors](https://nikku.github.io/talks/2022-camunda-connectors/)
 * [Contextual Language Parsing (FEEL)](https://nikku.github.io/talks/2022-context-sensitive-language-parsing-feel/)
 * [Implementing Context Sensitivity with Lezer](https://nikku.github.io/talks/2022-implementing-context-sensitivity-with-lezer/)
+* [The Making of Wuffle](https://nikku.github.io/talks/2022-making-of-wuffle/)
 
 ## 2021
 
