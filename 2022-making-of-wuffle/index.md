@@ -29,16 +29,16 @@ type: article
 
 ---
 
-## Why do we need a task board?
+## Taskboard Benefits
 
 * End-to-end visibility in what we're doing
 * Connecting the dots
-* Light-weight planning tool
-* Empowering software delivery teams (!)
+* Allows for light-weight planning
+* :arrow_right: Empowers software delivery teams
 
 ---
 
-## What is it?
+## About [Wuffle](https://github.com/nikku/wuffle)
 
 * A task board for [GitHub issues](https://guides.github.com/features/issues/)
 * Connects to GitHub as a GitHub app
@@ -85,6 +85,14 @@ align=center
 ---
 
 ## A Tool that Empowers
+
+---
+
+<!--config
+align=center
+-->
+
+### Supports *inbox grooming*, *iteration planning*, and *delivery* in an agile fashion.
 
 ---
 
