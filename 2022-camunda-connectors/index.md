@@ -224,7 +224,7 @@ public class Main {
 
 ---
 
-### Next Steps
+### Next Steps (2022-08-15)
 
 * Ship Element Templates: Conditional properties
 * Ship (publish) [Connector SDK (outbound)](https://github.com/camunda/connector-sdk)
