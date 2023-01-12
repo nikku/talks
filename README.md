@@ -4,6 +4,10 @@
 
 A list of (technical) talks I gave in recent years.
 
+## 2023
+
+* [Element Templates Primer](https://nikku.github.io/talks/2023-element-templates-primer/)
+
 ## 2022
 
 * [Token Simulation - Your next BPMN engine](./2022-token-simulation-next-bpmn-engine) ([recording](https://page.camunda.com/ccs2022-bpmn-js-token-simulation))
