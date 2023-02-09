@@ -10,7 +10,7 @@ A list of (technical) talks I gave in recent years.
 
 ## 2022
 
-* [Token Simulation - Your next BPMN engine](./2022-token-simulation-next-bpmn-engine) ([recording](https://page.camunda.com/ccs2022-bpmn-js-token-simulation))
+* [Token Simulation - Your next BPMN engine](./2022-token-simulation-your-next-bpmn-engine) ([recording](https://page.camunda.com/ccs2022-bpmn-js-token-simulation))
 * [Camunda Connectors](https://nikku.github.io/talks/2022-camunda-connectors/)
 * [Contextual Language Parsing (FEEL)](https://nikku.github.io/talks/2022-context-sensitive-language-parsing-feel/)
 * [Implementing Context Sensitivity with Lezer](https://nikku.github.io/talks/2022-implementing-context-sensitivity-with-lezer/)
@@ -22,7 +22,6 @@ A list of (technical) talks I gave in recent years.
 * [Token Simulation Internals](./2021-token-simulation-internals#readme)
 * [Types without TypeScript](./2021-types-without-typescript#readme)
 * [Lean Architecture](./2021-lean-architecture#readme)
-
 
 ## 2020
 
