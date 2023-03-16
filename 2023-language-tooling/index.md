@@ -22,7 +22,7 @@ type: article
 
 ### Disclaimer*
 
-This is a pitch and does not imply any future development direction. :crossed_fingers:
+This is a pitch and does not imply any current or future development direction. :crossed_fingers:
 
 ---
 
