@@ -1,24 +1,32 @@
 ---
-title: "FEEL Language tooling in Camunda"
-description: "In this talk we'll look into one of the exciting topics that cook in core modeling: (FEEL) language tooling. We'll look into how that can shape the way our users will work with our tools in the future, across pro and low-code, and present some of the technical investments required to get there."
-author: Nico Rehwaldt<https://github.com/nikku>
+title: "FEEL language tooling in Camunda"
+description: "In this talk we'll look into one of the exciting topics that cook in Camunda core modeling: FEEL* language tooling. We'll look into how that can shape the way our users will work with our tools in the future, across pro and low-code, and present some of the technical investments required to get there."
+author: nikku
+authorTwitter: '@nrehwaldt'
+image: https://nikku.github.io/talks/2023-language-tooling/preview.png
+origin: https://github.com/nikku/talks/tree/main/2023-language-tooling
+tags:
+  - Camunda
+  - Language tooling
+  - DMN FEEL
+type: article
 ---
 
 # _FEEL language tooling_
 
-#### Imagining the future of editing support and how we get there.
+#### Imagining the future of editing support in Camunda and how we get there.
 
 <small><a href="https://github.com/nikku">Nico Rehwaldt</a></small>
 
 ---
 
-### Disclaimer
+### Disclaimer*
 
 This is a pitch and does not imply any future development direction. :crossed_fingers:
 
 ---
 
-## History
+## Background
 
 ---
 
@@ -30,44 +38,53 @@ This is a pitch and does not imply any future development direction. :crossed_fi
 
 ---
 
+![](./modeler-template.png)
+
+---
+
 ![](./tooling-2022.png)
 
 ---
 
 <!--config
 align=center
+theme=eco
 -->
 
-## Lesson :one:
-
-If we want our (low-code) personas to be more successful we'd want to invest into (FEEL) language tooling.
+### Investing into (FEEL) language tooling will make our (low-code) users more successful in process orchestration.
 
 ---
 
-## Language tooling 101
+## Language tooling?
 
 ---
 
-![](language-tooling.gif)
+## Text editor demo :frame_with_picture:
 
 ---
 
 <!--config
 align=center
+theme=eco
 -->
 
-## Lesson :two:
+### Our users should not require external editors to do the job.
 
-Language tooling has to be deeply integrated within our modelers, not only provided by an external editor.
+### Modelers should deeply integrate the language tooling.
+
+---
+
+## [FEEL editing](https://camunda.com/platform/modeler/) demo :frame_with_picture:
 
 ---
 
 ### Baseline (any language)
 
+* Monospace
 * Syntax highlighting
-* Smart indent
 * Common keyboard shortcuts
-* Completions
+* Smart indent
+* Completions :question:
 
 ---
 
@@ -78,37 +95,28 @@ Language tooling has to be deeply integrated within our modelers, not only provi
 
 ---
 
-### Demo: FEEL editing support
-
----
-
 <!--config
 align=center
+theme=eco
 -->
 
-## Lesson :three:
-
-We want to build great language tooling and embrace it across the stack.
+### We want to start with FEEL language tooling and embrace it's use across the stack.
 
 ---
 
-### Demo: [Feel templating](https://github.com/bpmn-io/feelers)
+## [Feel templating](https://github.com/bpmn-io/feelers) demo :frame_with_picture:
 
 ---
 
-## Mission*
+### _Mission\*_ Make our users more successful in process orchestration through state-of-the-art language tooling.
 
-#### _Offer state-of-the-art language support, language support that makes Camunda users more successful in process orchestration._
-
-#### :arrow_right: Solution acceleration
+##### :arrow_right: Solution acceleration; foundation for advanced features.
 
 ---
 
-## Strategy*
+### _Strategy*_ Embrace FEEL. Make additional language tooling pluggable.
 
-#### _Embrace a single script language: FEEL._
-
-#### _Make additional language support pluggable. Establish best practices._
+##### Provide building blocks and establish best practices.
 
 ---
 
@@ -125,15 +133,16 @@ We want to build great language tooling and embrace it across the stack.
 ### Why FEEL?
 
 * FEEL is defined as part of the [DMN specification](https://www.omg.org/spec/DMN/)
-* It is the scripting language we chose for C8
+* It is the scripting language in Camunda 8
 * It is simple, and powerful :wink:
 
 ---
 
-### Building Blocks
+### Building blocks
 
 * [CodeMirror](https://codemirror.net/) recommended as foundation
 * Pluggable language support
 * [Grammar](https://github.com/nikku/lezer-feel) and [language](https://github.com/nikku/lang-feel) definitions for FEEL
 * An [embeddable FEEL editor](https://github.com/bpmn-io/feel-editor)
 * Extensible [variable resolver](https://github.com/bpmn-io/variable-resolver)
+* ...
