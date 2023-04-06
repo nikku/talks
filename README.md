@@ -6,6 +6,7 @@ A list of (technical) talks I gave in recent years.
 
 ## 2023
 
+* [Language Tooling](https://nikku.github.io/talks/2023-language-tooling/)
 * [Element Templates Primer](https://nikku.github.io/talks/2023-element-templates-primer/)
 
 ## 2022
