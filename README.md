@@ -6,6 +6,7 @@ A list of (technical) talks I gave in recent years.
 
 ## 2023
 
+* [bpmn.io outside of Camunda](./2023-bpmn-io-outside-of-camunda) ([recording](https://page.camunda.com/camunda-community-summit-2023-bpmnio-outside-of-camunda#main_content-module-4))
 * [Language Tooling](https://nikku.github.io/talks/2023-language-tooling/)
 * [Element Templates Primer](https://nikku.github.io/talks/2023-element-templates-primer/)
 
