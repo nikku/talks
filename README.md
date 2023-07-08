@@ -31,3 +31,4 @@ A list of (technical) talks I gave in recent years.
 * [Design Patterns and Code Smells](./2020-design-pattern-code-smells#readme)
 * [GitHub Bots](./2020-github-bots#readme)
 * [Travis Rant](./2020-travis-rant#readme)
+* [How to (NOT) roll your own BPMN editor](https://github.com/nikku/roll-your-own-bpmn-editor)
