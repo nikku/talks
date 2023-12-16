@@ -2,9 +2,9 @@
 
 Slides of a team internal tech talk.
 
-[![Slides](./screenshot.png)](https://nikku.github.io/talks/2021-lean-architecture/presentation.html)
+[![Slides](./screenshot.png)](https://nikku.github.io/talks/2021-lean-architecture/)
 
-[:arrow_right: Slides](https://nikku.github.io/talks/2021-lean-architecture/presentation.html)
+[:arrow_right: Slides](https://nikku.github.io/talks/2021-lean-architecture/)
 
 ---
 
