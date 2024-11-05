@@ -4,6 +4,10 @@
 
 A list of (technical) talks I gave in recent years.
 
+## 2024
+
+* [Team velocity](./2024-team-velocity)
+
 ## 2023
 
 * [bpmn.io outside of Camunda](./2023-bpmn-io-outside-of-camunda) ([recording](https://page.camunda.com/camunda-community-summit-2023-bpmnio-outside-of-camunda#main_content-module-4))
