@@ -7,6 +7,7 @@ A list of (technical) talks I gave in recent years.
 ## 2024
 
 * [Team velocity](./2024-team-velocity)
+* [Team jobs, environment, and composition](./2024-team-jobs-environment-composition)
 
 ## 2023
 
