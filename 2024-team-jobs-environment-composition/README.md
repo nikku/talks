@@ -1,6 +1,6 @@
 # Team Jobs, Environment, and Composition
 
-What super-powers a team? Some thoughts.
+What super-powers a team, and the organization it works in? Some thoughts.
 
 ## Jobs and environment
 
