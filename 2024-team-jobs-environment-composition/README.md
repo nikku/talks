@@ -10,6 +10,10 @@ What super-powers a team? Some thoughts.
 
 ![team-jobs-environment](./team-composition.png)
 
+## Identity vs. Strategy
+
+![team-identity-vs-strategy](./team-identity-strategy.png)
+
 ---
 
 Picture available as an [excalidraw scene](./team-jobs-environment-composition.excalidraw).
