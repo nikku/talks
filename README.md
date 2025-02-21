@@ -4,6 +4,10 @@
 
 A list of (technical) talks I gave in recent years.
 
+## 2025
+
+* [bpmn.io - Mission and Design Principles](./2025-bpmn-io-mission-design-principles)
+
 ## 2024
 
 * [Team velocity](./2024-team-velocity)
