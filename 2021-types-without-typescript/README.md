@@ -2,9 +2,9 @@
 
 A Camunda Tech Talk I gave early 2021.
 
-[![Screenshot](./screenshot.png)](https://nikku.github.io/talks/2021-token-simulation-internals/)
+[![Screenshot](./screenshot.png)](https://nikku.github.io/talks/2021-types-without-typescript/)
 
-[:arrow_right: Slides](https://nikku.github.io/talks/2021-token-simulation-internals/)
+[:arrow_right: Slides](https://nikku.github.io/talks/2021-types-without-typescript/)
 
 
 ---
