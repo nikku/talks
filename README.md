@@ -41,3 +41,14 @@ A list of (technical) talks I gave in recent years.
 * [GitHub Bots](./2020-github-bots#readme)
 * [Travis Rant](./2020-travis-rant#readme)
 * [How to (NOT) roll your own BPMN editor](https://github.com/nikku/roll-your-own-bpmn-editor)
+
+## 2019
+
+* [Building GitHub bots (and the bpmn.io pull request flow)](https://speakerdeck.com/nikku/building-github-bots-and-the-bpmn-dot-io-pull-request-flow)
+* [Why we stopped doing Scrum (and the good parts that we kept)](https://speakerdeck.com/nikku/why-we-stopped-doing-scrum-and-the-good-parts-we-kept)
+* [Svelte: Building front-end applications without virtual DOM](https://speakerdeck.com/nikku/svelte-building-front-end-applications-without-virtual-dom)
+
+## 2014
+
+* [Building large-scale JS applications (that do not suck)](https://speakerdeck.com/nikku/building-large-scale-javascript-applications)
+* [Introducing bpmn.io](https://speakerdeck.com/nikku/intoducing-bpmn-dot-io)
