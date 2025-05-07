@@ -1,6 +1,6 @@
 ---
 title: How the engine works
-description: A human readable description
+description: A lightweight introduction to "engines", anchored at Camunda 8, working with computers, and key jobs-to-be done when operating them.
 author: Nico Rehwaldt (https://github.com/nikku)
 ---
 
@@ -86,7 +86,7 @@ It always worked that way, and when it works differently, then it is developed t
 
 ---
 
-## So again, how does the *engine* work?
+## So again, how does the [[Camunda]](https://camunda.com/) *engine* work?
 
 ---
 
