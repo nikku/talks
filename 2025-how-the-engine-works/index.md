@@ -135,6 +135,16 @@ It always worked that way, and when it works differently, then it is developed t
 
 ---
 
+## Thanks
+
+# :heart:
+
+---
+
+## Appendix
+
+---
+
 ## You develop Camunda no different than you develop any other software.
 
 ---
@@ -155,7 +165,7 @@ It always worked that way, and when it works differently, then it is developed t
 
 ---
 
-## Also, there is many "engines"
+## There is many "engines"
 
 * BPMN engine - executes BPMN inside of Camunda 8
 * [dmn-scala](https://github.com/camunda/dmn-scala) - evaluates DMN decisions inside of Camunda 8
@@ -172,6 +182,31 @@ It always worked that way, and when it works differently, then it is developed t
 
 ---
 
-## Thanks
+## It matters what a Camunda developer does
 
-# :heart:
+* You implement an E2E process, you *deliver an experience to end-users*
+* You implement a re-usable building block, you *provide infrastructure* to others
+
+---
+
+## *What* you build for *whom* changes your way of working
+
+---
+
+[ ![categorize your use-case](./categorize-your-use-case.png) ](https://docs.google.com/presentation/d/1Aax8uH1APi2YOjRvZjs566ade5325fxA6LX5Xq9I7gY/edit?slide=id.g2ffd5c14de7_0_844#slide=id.g2ffd5c14de7_0_844)
+
+---
+
+## Where a Camunda developer works matters, and so does their technical expertise
+
+---
+
+[ ![diversity of roles](./diversity-of-roles.png) ](https://miro.com/app/board/uXjVIWEM7Rc=/?moveToWidget=3458764619483476806&cot=14)
+
+---
+
+## Modeler: Supporting *Camunda implementation* in different *environments*, for *different personas*
+
+---
+
+[ ![modelers comparison](./modelers-comparison.png) ](https://docs.google.com/presentation/d/1Aax8uH1APi2YOjRvZjs566ade5325fxA6LX5Xq9I7gY/edit?slide=id.g2ffd5c14de7_0_817#slide=id.g2ffd5c14de7_0_817)
