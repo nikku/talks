@@ -1,6 +1,6 @@
 ---
 title: No refactoring issues
-description: Understanding tech dept and a pragmatic proposal on handling it.
+description: Understanding tech debt and a pragmatic proposal on handling it.
 author: Nico Rehwaldt
 ---
 
@@ -48,15 +48,15 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-## Technical dept is accidental complexity, in code.
+## Technical debt is accidental complexity, in code.
 
 ---
 
-#### [Technical dept is] a collection of design or implementation constructs that make future changes more costly or impossible ([ref](https://en.wikipedia.org/wiki/Technical_debt)).
+#### [Technical debt is] a collection of design or implementation constructs that make future changes more costly or impossible ([ref](https://en.wikipedia.org/wiki/Technical_debt)).
 
 ---
 
-[![essential complexity and cruft, as described by Martin Fowler](./technical-dept-cruft-fowler.png)](https://martinfowler.com/bliki/TechnicalDebt.html)
+[![essential complexity and cruft, as described by Martin Fowler](./technical-debt-cruft-fowler.png)](https://martinfowler.com/bliki/TechnicalDebt.html)
 
 ---
 
