@@ -7,6 +7,7 @@ A list of (technical) talks I gave in recent years.
 ## 2025
 
 * [bpmn.io - Mission and Design Principles](./2025-bpmn-io-mission-design-principles)
+* [How the engine works](./2025-how-the-engine-works) ([slides](https://nikku.github.io/talks/2025-how-the-engine-works/))
 
 ## 2024
 
