@@ -1,12 +1,12 @@
 ---
 title: No refactoring issues
-description: Understanding tech dept and a pragmatic proposal how to handle it.
+description: Understanding tech dept and a pragmatic proposal on handling it.
 author: Nico Rehwaldt
 ---
 
 # No *Refactoring Issues*
 
-#### The inevidable cleanup, and how not to do it.
+#### The inevitable cleanup, and how not to do it.
 
 <small>Nico Rehwaldt, 2025</small>
 
@@ -26,9 +26,9 @@ author: Nico Rehwaldt
 
 ### Accidental complexity has many forms, in code and UX
 
-A quick fix enables interaction `A`, now existing user journey `B` is broken.
+A quick fix enables interaction `A`; now, the existing user journey `B` is broken.
 
-We plan to do `X` as a first step towards a higher goal, but we never follow-up.
+We plan to do `X` as a first step towards a higher goal, but never follow up.
 
 ----
 
@@ -36,13 +36,15 @@ We plan to do `X` as a first step towards a higher goal, but we never follow-up.
 
 ---
 
-### Accidental complexity is inevidable
+### Accidental complexity is inevitable
 
-The environment in which an application operates changes, rendering UIs outdated and dependencies vulnerable. *An untouched application decays, in code and user experience.*
+The environment in which an application operates changes, rendering UIs outdated and dependencies vulnerable.
+
+*Even if untouched, an application decays in code and user experience.*
 
 ---
 
-### We want to have measures in place to keep our applications in check.
+### We want to have measures to keep our applications in check.
 
 ---
 
@@ -66,7 +68,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-#### The goal of refactoring is to adapt existing code so that new changes can be made in a straight forward fashion.
+#### The goal of refactoring is to adapt existing code to make new changes straightforward.
 
 ---
 
@@ -82,7 +84,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-#### Refactoring keeps the system fit for purpose, and the velocity in check.
+#### Refactoring keeps the system fit for purpose and the velocity in check.
 
 ---
 
@@ -94,7 +96,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-#### By doing it *continuously*, we *make it a habit*, a normal thing, inherent part of our developer tool belt. We make it a path traveled.
+#### By doing it *continuously*, we *make it a habit*, a normal thing, an inherent part of our developer tool belt. We make it a path traveled.
 
 ---
 
@@ -102,7 +104,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-#### By doing it *opportunistically*, *focusing it* around the current task at hand, we ensure that *we do it where it matters most*: In critical code paths.
+#### By doing it *opportunistically*, *focusing on the current task* at hand, we ensure that *we do it where it matters most*: in critical code paths.
 
 ---
 
@@ -122,11 +124,11 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :bulb: No body is ever going to clean up after you. It is *your code base*, *your responsibility*. *You are* the one *suffering* from the mess you leave behind.
+### :bulb: Nobody is going to clean up after you. It is *your code base*, *your responsibility*. *You are* the one *suffering* from the mess you leave behind.
 
 ---
 
-### :one: `no-refactoring-issues` - do not allow "refactoring issues", fix things you come across.
+### :one: `no-refactoring-issues` - do not allow "refactoring issues", fix things you encounter.
 
 ---
 
@@ -138,7 +140,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :two: `opportunistic-in-context` - make reasonable efforts to clean up the mess that you encounter, while you have context. *It is cheaper now.*
+### :two: `opportunistic-in-context` - make reasonable efforts to clean up the mess you encounter, while you have context. *It is cheaper now.*
 
 ---
 
@@ -146,15 +148,15 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :loudspeaker: "*I was to lazy to fix it*, and hope someone else will do it, some day."
+### : Loudspeaker: "*I was too lazy to fix it*, and I hope someone else will do it someday."
 
 ---
 
-### :question: Who is the magic wizard to fix things for you?
+### :question: Who is the magic wizard who can fix things for you?
 
 ---
 
-### :three: `easier-when-practiced` - Yes, refactoring can be complicated, it gets harder if we don't train it, once the code base eroded further. *Start refactoring today.*
+### :three: `easier-when-practiced` - Yes, refactoring can be complicated, it gets harder if we don't practice it, once the code base erodes further. *Start refactoring today.*
 
 ---
 
@@ -166,7 +168,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :four: `automated-testing-is-king` - *level up your testing practice*; ensure coverage is meaningful, quick to run and easy to expand.
+### :four: `automated-testing-is-king` - *level up your testing practice*; ensure coverage is meaningful, quick to run, and easy to expand.
 
 ---
 
@@ -182,7 +184,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :question: Who in your team has cleaner in their job description? Who ensures things are maintainable for the long run?
+### :question: Who on your team has cleaner in their job description? Who ensures things are maintainable for the long run?
 
 ---
 
@@ -198,7 +200,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :six: `invest-in-tomorrow` - do not accept todays excuses, invest reasonably to *set yourself up for (your) future success*.
+### :six: `invest-in-tomorrow` - do not accept today's excuses, invest reasonably to *set yourself up for (your) future success*.
 
 ---
 
@@ -215,7 +217,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ### Note to managers
 
-* Make being a good maintainer part of your teams culture
+* Make being a good maintainer part of your team's culture
 * Provide clear expectations, establish accountability
 * Empower your peers to live by [the rules of refactoring](#49)
 * Setup friendly reminders, where needed (definition of done, PR templates)
@@ -234,13 +236,13 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ### Things that don't work well (1)
 
-* **Refactoring Friday** - You'll never complete your refactoring, in time.
-* **Refactoring issues** - Offload todays responsibility to your future self.
+* **Refactoring Friday** - You'll never complete your refactoring in time.
+* **Refactoring issues** - Offload today's responsibility to your future self.
 * **30% time for refactoring** - Add this to the 13% working on papercuts, the 37.85% reviewing, the 20% discussing strategic matters, and the 23.14% coding.
 
 ---
 
 ### Things that don't work well (2)
 
-* **Rebuild periodically** - Nothing is more permanent than a temporary solution. Also, mind the [second system effect](https://en.wikipedia.org/wiki/Second-system_effect).
-* **Solve it with more process** - What is this magic process going to be?
+* **Rebuild periodically** - Nothing is more permanent than a temporary solution. Also, remember the [second system effect](https://en.wikipedia.org/wiki/Second-system_effect).
+* **Solve it with more process** - What will this magic process be?
