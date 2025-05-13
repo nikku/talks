@@ -156,7 +156,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :three: `easier-when-practiced` - Yes, refactoring can be complicated, it gets harder if we don't practice it, once the code base erodes further. *Start refactoring today.*
+### :three: `easier-when-practiced` - Yes, refactoring can be complicated. It only gets harder if we don't practice it, or let the code base erode further. *Start refactoring today.*
 
 ---
 
