@@ -114,15 +114,15 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :one: "I created an issue for it."
+### :speech_balloon: "I created an issue for it."
 
 ---
 
-### :one: "I *did not bother to fix this thing today, where I have context*, but hope a magic wizard will some day come and fix it."
+### :loudspeaker: "I *did not bother to fix this thing today, where I have context*, but hope a magic wizard will some day come and fix it."
 
 ---
 
-### :one: No body is ever going to clean up after you. It is *your code base*, *your responsibility*. *You are* the one *suffering* from the mess you leave behind.
+### :bulb: No body is ever going to clean up after you. It is *your code base*, *your responsibility*. *You are* the one *suffering* from the mess you leave behind.
 
 ---
 
@@ -130,11 +130,11 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :two: "Next time we should clean this up."
+### :speech_balloon: "Next time we should clean this up."
 
 ---
 
-### :two: No body is ever going to prioritize a *cleanup*, it *ships no user value*. Clean it up now, in context, or keep suffering.
+### :bulb: No body is going to prioritize your *cleanup*, it *ships no user value*. Clean it up now, in context, or keep suffering.
 
 ---
 
@@ -142,27 +142,27 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :three: "I could not fix it."
+### :speech_balloon: "I could not fix it."
 
 ---
 
-### :three: "*I was to lazy to fix it*, and hope someone else will do it, some day."
+### :loudspeaker: "*I was to lazy to fix it*, and hope someone else will do it, some day."
 
 ---
 
-### :three: Who is the magic wizard to fix things for you?
+### :question: Who is the magic wizard to fix things for you?
 
 ---
 
-### :three: `easier-when-practiced` - Yes, refactoring can be complicated, it gets harder if we don't train it. *Start training today.*
+### :three: `easier-when-practiced` - Yes, refactoring can be complicated, it gets harder if we don't train it, once the code base eroded further. *Start refactoring today.*
 
 ---
 
-### :four: "I don't dare to touch this code path, because I don't know what breaks."
+### :speech_balloon: "I don't dare to touch this code path, because I don't know what breaks."
 
 ---
 
-### :four: What magic bullet will fix this for you in the future?
+### :question: What magic bullet will fix this for you in the future?
 
 ---
 
@@ -174,15 +174,15 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :five: "I did not know cleaner was my job description."
+### :speech_balloon: "I did not know cleaner was my job description."
 
 ---
 
-### :five: "I have a very simplistic view of what a [developer's job](https://github.com/nikku/talks/tree/main/2024-team-jobs-environment-composition#jobs-and-environment) is."
+### :loudspeaker: "I have a very simplistic view of what a [developer's job](https://github.com/nikku/talks/tree/main/2024-team-jobs-environment-composition#jobs-and-environment) is."
 
 ---
 
-### :five: Who in your team has cleaner in their job description? Who ensures things are maintainable for the long run?
+### :question: Who in your team has cleaner in their job description? Who ensures things are maintainable for the long run?
 
 ---
 
@@ -190,11 +190,11 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :six: "I am behind schedule to wrap up this issue".
+### :speech_balloon: "I am behind schedule to wrap up this issue".
 
 ---
 
-### :six: "I keep the code base in this state so *I'll be behind schedule next time, too*".
+### :loudspeaker: "I keep the code base in this state so *I'll be behind schedule next time, too*".
 
 ---
 
