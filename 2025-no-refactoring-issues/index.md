@@ -148,7 +148,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### : Loudspeaker: "*I was too lazy to fix it*, and I hope someone else will do it someday."
+### :loudspeaker: "*I was too lazy to fix it*, and I hope someone else will do it someday."
 
 ---
 
