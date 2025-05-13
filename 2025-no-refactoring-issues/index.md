@@ -232,7 +232,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### List of things that don't work well (1)
+### Things that don't work well (1)
 
 * **Refactoring Friday** - You'll never complete your refactoring, in time.
 * **Refactoring issues** - Offload todays responsibility to your future self.
@@ -240,6 +240,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### List of things that don't work well (2)
+### Things that don't work well (2)
 
-* Rebuild periodically - Nothing is more permanent than a temporary solution. Also, mind the [second system effect](https://en.wikipedia.org/wiki/Second-system_effect).
+* **Rebuild periodically** - Nothing is more permanent than a temporary solution. Also, mind the [second system effect](https://en.wikipedia.org/wiki/Second-system_effect).
+* **Solve it with more process** - What is this magic process going to be?
