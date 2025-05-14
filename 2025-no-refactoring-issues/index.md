@@ -164,15 +164,11 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### :question: What magic bullet will fix this for you in the future?
+### :loudspeaker: "*Our (automated) testing practice sucks.* I don't trust it to meaningfully report whats broken, when I change things."
 
 ---
 
-### :four: `automated-testing-is-king` - *level up your testing practice*; ensure coverage is meaningful, quick to run, and easy to expand.
-
----
-
-### :four: `architect-for-testability` - build a system that is easy to test, and it will be well composed, easier to maintain, and understand.
+### :four: `architect-for-testability` - build a system that is easy to test, and it will be well composed, easier to maintain, and understand. Support it with a comprehensive, fast, and reliable test suite.
 
 ---
 
@@ -204,14 +200,47 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
+### :speech_balloon: "I refactored, but the code base is no better now."
+
+---
+
+### :loudspeaker: "I changed things without a plan."
+
+---
+
+### :bulb: The feeling that "something is wrong" does not automatically lead to a successful outcome.
+
+---
+
+### :seven: `know-what-and-why` - understand what you do and why, before you do. Use the plan to assess if the actual step of doing is *feasible* and *worth the effort*.
+
+---
+
+## Refactoring and continuous improvement have to be integral parts of our work.
+
+---
+
+### Getting there is a cultural and technical challenge
+
+Cultural, because we need to get over old habbits, change our way of working.
+
+Technical, because the first steps to a better code base are the hardest.
+
+---
+
+### Basic rules of refactoring can help.
+
+---
+
 ### Rules of refactoring
 
 * :one: `no-refactoring-issues`
 * :two: `opportunistic-in-context`
 * :three: `easier-when-practiced`
-* :four: `automated-testing-is-king` / `architect-for-testability`
+* :four: `architect-for-testability`
 * :five: `embody-the-maintainer`
 * :six: `invest-in-tomorrow`
+* :seven: `know-what-and-why`
 
 ---
 
@@ -234,7 +263,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### Things that don't work well (1)
+### Things that may not work (1)
 
 * **Refactoring Friday** - You'll never complete your refactoring in time.
 * **Refactoring issues** - Offload today's responsibility to your future self.
@@ -242,7 +271,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### Things that don't work well (2)
+### Things that may not work (2)
 
 * **Rebuild periodically** - Nothing is more permanent than a temporary solution. Also, remember the [second system effect](https://en.wikipedia.org/wiki/Second-system_effect).
 * **Solve it with more process** - What will this magic process be?
