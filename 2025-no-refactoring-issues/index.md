@@ -48,7 +48,7 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-## Technical debt is accidental complexity, in code.
+## Technical debt = *accidental complexity, in code*
 
 ---
 
