@@ -220,11 +220,11 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
-### Getting there is a cultural and technical challenge
+### Getting there is a *cultural* and *technical challenge*
 
 Cultural, because we need to get over old habbits, change our way of working.
 
-Technical, because the first steps to a better code base are the hardest.
+Technical, because the first steps to a better code base are the hardest, and skills have to be learned.
 
 ---
 
