@@ -7,6 +7,8 @@ author: Nico Rehwaldt
 
 ### Types Without TypeScript
 
+<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2021</small>
+
 ---
 
 #### A Talk by [`@nikku`](https://github.com/nikku)

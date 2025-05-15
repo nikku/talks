@@ -16,7 +16,7 @@ type: article
 
 #### Imagining the future of editing support in Camunda and how we get there.
 
-<small><a href="https://github.com/nikku">Nico Rehwaldt</a></small>
+<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2023</small>
 
 ---
 

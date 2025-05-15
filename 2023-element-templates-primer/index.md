@@ -8,7 +8,7 @@ author: Nico Rehwaldt<https://github.com/nikku>
 
 #### Re-usable building blocks for process modeling
 
-<small><a href="https://github.com/nikku">Nico Rehwaldt</a></small>
+<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2023</small>
 
 ---
 

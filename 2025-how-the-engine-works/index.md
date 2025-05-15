@@ -8,7 +8,7 @@ author: Nico Rehwaldt (https://github.com/nikku)
 
 #### A tale on computer systems, and how to work with them.
 
-<small>Nico Rehwaldt, 2025</small>
+<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2025</small>
 
 ---
 

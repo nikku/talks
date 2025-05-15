@@ -17,7 +17,7 @@ type: article
 
 #### (A task board for [GitHub issues](https://guides.github.com/features/issues/))
 
-<small><a href="https://github.com/nikku">Nico Rehwaldt</a></small>
+<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2022</small>
 
 ---
 

@@ -16,7 +16,7 @@ type: article
 
 #### Lessons learned while implementing a [parser](https://github.com/nikku/lezer-feel) and [interpreter](https://github.com/nikku/feelin) for DMN FEEL
 
-<small><a href="https://github.com/nikku">Nico Rehwaldt</a></small>
+<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2022</small>
 
 ---
 

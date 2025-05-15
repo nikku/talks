@@ -12,13 +12,11 @@ tags:
   - lean
 ---
 
-## _Lean Architecture_
+# _Lean Architecture_
 
-### Adopting our Tools to Fit new Requirements, as we go.
+#### Adopting our Tools to Fit new Requirements, as we go.
 
-<br/>
-
-[`Nico Rehwaldt`](https://github.com/nikku)
+<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2021</small>
 
 ---
 
