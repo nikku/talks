@@ -128,6 +128,10 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
+<!--config
+name=no-refactoring-issues
+-->
+
 ### :one: `no-refactoring-issues` - do not allow "refactoring issues", fix things you encounter.
 
 ---
@@ -139,6 +143,10 @@ The environment in which an application operates changes, rendering UIs outdated
 ### :bulb: No body is going to prioritize your *cleanup*, it *ships no user value*. Clean it up now, in context, or keep suffering.
 
 ---
+
+<!--config
+name=opportunistic-in-context
+-->
 
 ### :two: `opportunistic-in-context` - make reasonable efforts to clean up the mess you encounter, while you have context. *It is cheaper now.*
 
@@ -156,6 +164,10 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
+<!--config
+name=easier-when-practiced
+-->
+
 ### :three: `easier-when-practiced` - Yes, refactoring can be complicated. It only gets harder if we don't practice it, or let the code base erode further. *Start refactoring today.*
 
 ---
@@ -167,6 +179,11 @@ The environment in which an application operates changes, rendering UIs outdated
 ### :loudspeaker: "*Our (automated) testing practice sucks.* I don't trust it to meaningfully report whats broken, when I change things."
 
 ---
+
+
+<!--config
+name=architect-for-testability
+-->
 
 ### :four: `architect-for-testability` - build a system that is easy to test, and it will be well composed, easier to maintain, and understand. Support it with a comprehensive, fast, and reliable test suite.
 
@@ -184,6 +201,10 @@ The environment in which an application operates changes, rendering UIs outdated
 
 ---
 
+<!--config
+name=embody-the-maintainer
+-->
+
 ### :five: `embody-the-maintainer` - ensure that the maintainer perspective is part of everything you do. Add it to your _definition of done_, enforce it.
 
 ---
@@ -195,6 +216,10 @@ The environment in which an application operates changes, rendering UIs outdated
 ### :loudspeaker: "I keep the code base in this state so *I'll be behind schedule next time, too*".
 
 ---
+
+<!--config
+name=invest-in-tomorrow
+-->
 
 ### :six: `invest-in-tomorrow` - do not accept today's excuses, invest reasonably to *set yourself up for (your) future success*.
 
@@ -211,6 +236,10 @@ The environment in which an application operates changes, rendering UIs outdated
 ### :bulb: The feeling that "something is wrong" does not automatically lead to a successful outcome.
 
 ---
+
+<!--config
+name=know-what-and-why
+-->
 
 ### :seven: `know-what-and-why` - understand what you do and why, before you do. Use the plan to assess if the actual step of doing is *feasible* and *worth the effort*. If in doubt, get a second opinion.
 
@@ -232,24 +261,28 @@ Technical, because the first steps to a better code base are the hardest, and sk
 
 ---
 
+<!--config
+name=rules-of-refactoring
+-->
+
 ### Rules of refactoring
 
-* :one: `no-refactoring-issues`
-* :two: `opportunistic-in-context`
-* :three: `easier-when-practiced`
-* :four: `architect-for-testability`
-* :five: `embody-the-maintainer`
-* :six: `invest-in-tomorrow`
-* :seven: `know-what-and-why`
+* [:one:](#no-refactoring-issues) `no-refactoring-issues`
+* [:two:](#opportunistic-in-context) `opportunistic-in-context`
+* [:three:](#easier-when-practiced) `easier-when-practiced`
+* [:four:](#architect-for-testability) `architect-for-testability`
+* [:five:](#embody-the-maintainer) `embody-the-maintainer`
+* [:six:](#invest-in-tomorrow) `invest-in-tomorrow`
+* [:seven:](#know-what-and-why) `know-what-and-why`
 
 ---
 
 ### Note to managers
 
 * Make being a good maintainer part of your team's culture
-* Provide clear expectations, establish accountability
-* Empower your peers to live by [the rules of refactoring](#49)
-* Setup friendly reminders, where needed (definition of done, PR templates)
+* Provide clear expectations, establish [accountability](https://www.merriam-webster.com/dictionary/accountability)
+* Empower your peers to live by [the rules of refactoring](#rules-of-refactoring)
+* Setup [friendly reminders](#definition-of-done)
 
 ---
 
