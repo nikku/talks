@@ -311,3 +311,15 @@ name=rules-of-refactoring
 
 * **Rebuild periodically** - Nothing is more permanent than a temporary solution. Also, remember the [second system effect](https://en.wikipedia.org/wiki/Second-system_effect).
 * **Solve it with more process** - What will this magic process be?
+
+---
+
+## Simple reminders can go a long way
+
+---
+
+<!--config
+name=definition-of-done
+-->
+
+![definition of done](./definition-of-done.png)
