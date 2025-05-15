@@ -16,7 +16,7 @@ tags:
 
 #### Adopting our tools to fit new requirements, as we go.
 
-<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2021</small>
+<small><a href="https://github.com/nikku"><code>Nico Rehwaldt</code></a> 2021</small>
 
 ---
 

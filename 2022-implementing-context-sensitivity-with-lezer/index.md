@@ -17,7 +17,7 @@ type: article
 
 #### (Ab)using [Lezer](https://lezer.codemirror.net/) to build context sensitivity into [lezer-feel](https://github.com/nikku/lezer-feel).
 
-<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2022</small>
+<small>[`Nico Rehwaldt`](https://github.com/nikku) 2022</small>
 
 ---
 

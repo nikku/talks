@@ -8,7 +8,7 @@ author: Nico Rehwaldt<https://github.com/nikku>
 
 #### Re-usable building blocks for safe + happy automation
 
-<small><a href="https://github.com/nikku">Nico Rehwaldt</a> 2022</small>
+<small>[`Nico Rehwaldt`](https://github.com/nikku) 2022</small>
 
 ---
 

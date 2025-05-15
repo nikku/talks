@@ -7,6 +7,8 @@ author: Nico Rehwaldt
 
 ### How to screw with your users in five easy steps.
 
+<small>[`Nico Rehwaldt`](https://github.com/nikku) 2020</small>
+
 ---
 
 ### *Rant* The extensive talk about a given topic longer than needed whether anyone cares or not.

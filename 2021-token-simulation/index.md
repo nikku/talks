@@ -65,7 +65,7 @@ theme=cccon
 
 ##### Understanding bpmn-js extensibility one token at a time.
 
-<small style="font-size: .5em">Nico Rehwaldt</small>
+<small style="font-size: .5em"><a href="https://github.com/nikku">Nico Rehwaldt</a> 2021</small>
 
 
 ---
