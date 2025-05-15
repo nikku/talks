@@ -8,7 +8,7 @@ author: Nico Rehwaldt
 
 #### The inevitable cleanup, and how not to do it.
 
-<small>Nico Rehwaldt, 2025</small>
+<small>[Nico Rehwaldt](https://github.com/nikku), 2025</small>
 
 ---
 
