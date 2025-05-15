@@ -180,6 +180,9 @@ name=easier-when-practiced
 
 ---
 
+### :loudspeaker: "*Our (automated) testing practice sucks.* I know I have to fix 1000 tests after this small change."
+
+---
 
 <!--config
 name=architect-for-testability
