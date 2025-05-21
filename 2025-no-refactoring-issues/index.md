@@ -228,6 +228,10 @@ name=invest-in-tomorrow
 
 ---
 
+## When is a refactoring successful? *Is it always worth it?*
+
+---
+
 ### :speech_balloon: "I refactored, but the code base is no better now."
 
 ---
@@ -245,6 +249,38 @@ name=know-what-and-why
 -->
 
 ### :seven: `know-what-and-why` - understand what you do and why, before you do. Use the plan to assess if the actual step of doing is *feasible* and *worth the effort*. If in doubt, get a second opinion.
+
+---
+
+### :speech_balloon: "Refactoring makes a code review hard to execute."
+
+---
+
+### :loudspeaker: "I did not properly structure my work, so others can follow along."
+
+---
+
+<!--config
+name=make-it-explicit
+-->
+
+### :eight: `make-it-explicit` - Separate refactoring and feature development. Document [what changes, why](#know-what-and-why). Allow work to be structured in multiple PRs, or multiple commits on a feature branch.
+
+---
+
+### :speech_balloon: "Is this [bike-shedding](https://en.wikipedia.org/wiki/Law_of_triviality)?"
+
+---
+
+### :bulb: Be concious about your time. Put your attention to places _where it matters_. Be able to argue [what changes, why](#know-what-and-why) and get buy-in.
+
+---
+
+<!--config
+name=improve-substantially
+-->
+
+### :nine: `improve-substantially` - Cosmetic changes are a waste of time and attention - refactor where it is worth the effort. Manage technical debt wisely, you'll never fully get rid of it anyway.
 
 ---
 
@@ -268,7 +304,7 @@ Technical, because the first steps to a better code base are the hardest, and sk
 name=rules-of-refactoring
 -->
 
-### Rules of refactoring
+### Rules of refactoring (1)
 
 * [:one:](#no-refactoring-issues) `no-refactoring-issues`
 * [:two:](#opportunistic-in-context) `opportunistic-in-context`
@@ -276,7 +312,18 @@ name=rules-of-refactoring
 * [:four:](#architect-for-testability) `architect-for-testability`
 * [:five:](#embody-the-maintainer) `embody-the-maintainer`
 * [:six:](#invest-in-tomorrow) `invest-in-tomorrow`
+
+---
+
+<!--config
+name=rules-of-refactoring-2
+-->
+
+### Rules of refactoring (2)
+
 * [:seven:](#know-what-and-why) `know-what-and-why`
+* [:eight:](#make-it-explicit) `make-it-explicit`
+* [:nine:](#improve-substantially) `improve-substantially`
 
 ---
 
