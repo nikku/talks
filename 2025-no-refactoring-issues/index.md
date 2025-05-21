@@ -4,7 +4,7 @@ description: Understanding tech debt and a pragmatic proposal on handling it.
 author: Nico Rehwaldt
 ---
 
-# No *Refactoring Issues*
+# *No Refactoring Issues*
 
 #### The inevitable cleanup, and how not to do it.
 
@@ -40,7 +40,7 @@ We plan to do `X` as a first step towards a higher goal, but never follow up.
 
 The environment in which an application operates changes, rendering UIs outdated and dependencies vulnerable.
 
-*Even if untouched, an application decays in code and user experience.*
+It decays in code and user experience, whether we evolve it or not.
 
 ---
 
@@ -136,19 +136,23 @@ name=no-refactoring-issues
 
 ---
 
-### :speech_balloon: "Next time we should clean this up."
+### :speech_balloon: "I don't dare to touch this code path, because I don't know what breaks."
 
 ---
 
-### :bulb: No body is going to prioritize your *cleanup*, it *ships no user value*. Clean it up now, in context, or keep suffering.
+### :loudspeaker: "*Our (automated) testing practice sucks.* I don't trust it to meaningfully report whats broken, when I change things."
+
+---
+
+### :loudspeaker: "*Our (automated) testing practice sucks.* I know I have to fix 1000 tests after this small change."
 
 ---
 
 <!--config
-name=opportunistic-in-context
+name=architect-for-testability
 -->
 
-### :two: `opportunistic-in-context` - make reasonable efforts to clean up the mess you encounter, while you have context. *It is cheaper now.*
+### :two: `architect-for-testability` - build a system that is easy to test, and it will be well composed, easier to maintain, and understand. Support it with a comprehensive, fast, and reliable test suite.
 
 ---
 
@@ -172,26 +176,6 @@ name=easier-when-practiced
 
 ---
 
-### :speech_balloon: "I don't dare to touch this code path, because I don't know what breaks."
-
----
-
-### :loudspeaker: "*Our (automated) testing practice sucks.* I don't trust it to meaningfully report whats broken, when I change things."
-
----
-
-### :loudspeaker: "*Our (automated) testing practice sucks.* I know I have to fix 1000 tests after this small change."
-
----
-
-<!--config
-name=architect-for-testability
--->
-
-### :four: `architect-for-testability` - build a system that is easy to test, and it will be well composed, easier to maintain, and understand. Support it with a comprehensive, fast, and reliable test suite.
-
----
-
 ### :speech_balloon: "I did not know cleaner was my job description."
 
 ---
@@ -208,7 +192,7 @@ name=architect-for-testability
 name=embody-the-maintainer
 -->
 
-### :five: `embody-the-maintainer` - ensure that the maintainer perspective is part of everything you do. Add it to your _definition of done_, enforce it.
+### :four: `embody-the-maintainer` - ensure that the maintainer perspective is part of everything you do. Add it to your _definition of done_, enforce it.
 
 ---
 
@@ -224,11 +208,37 @@ name=embody-the-maintainer
 name=invest-in-tomorrow
 -->
 
-### :six: `invest-in-tomorrow` - do not accept today's excuses, invest reasonably to *set yourself up for (your) future success*.
+### :five: `invest-in-tomorrow` - do not accept today's excuses, invest reasonably to *set yourself up for (your) future success*.
+
+---
+
+<!--config
+theme=eco
+-->
+
+### Always leave the campground cleaner than you found it.
+
+###### (Boy scouts of America)
 
 ---
 
 ## When is a refactoring successful? *Is it always worth it?*
+
+---
+
+### :speech_balloon: "Next time we should clean this up."
+
+---
+
+### :bulb: No body is going to prioritize your *cleanup*, it *ships no user value*. Clean it up now, in context, or keep suffering.
+
+---
+
+<!--config
+name=opportunistic-in-context
+-->
+
+### :five: `opportunistic-in-context` - make reasonable efforts to clean up the mess you encounter, while you have context. *It is cheaper now.*
 
 ---
 
@@ -264,7 +274,7 @@ name=know-what-and-why
 name=make-it-explicit
 -->
 
-### :eight: `make-it-explicit` - Separate refactoring and feature development. Document [what changes, why](#know-what-and-why). Allow work to be structured in multiple PRs, or multiple commits on a feature branch.
+### :eight: `make-it-explicit` - Separate refactoring and feature development. Document [what changes, why](#know-what-and-why). Structure work in multiple PRs, or multiple commits.
 
 ---
 
@@ -272,7 +282,7 @@ name=make-it-explicit
 
 ---
 
-### :bulb: Be concious about your time. Put your attention to places _where it matters_. Be able to argue [what changes, why](#know-what-and-why) and get buy-in.
+### :bulb: Be concious about your time. Put your attention to places _where it matters_. Be able to argue [what changes, why](#know-what-and-why). Get buy-in from your team.
 
 ---
 
@@ -284,7 +294,11 @@ name=improve-substantially
 
 ---
 
-## Refactoring and continuous improvement have to be integral parts of our work.
+<!--config
+theme=eco
+-->
+
+## Make refactoring and continuous improvement integral parts of our work.
 
 ---
 
@@ -296,7 +310,21 @@ Technical, because the first steps to a better code base are the hardest, and sk
 
 ---
 
-### Basic rules of refactoring can help.
+### A [healthy environment](#environment) and following [basic rules of refactoring](#rules-of-refactoring) can help.
+
+---
+
+<!--config
+name=environment
+-->
+
+### Environment
+
+* [:one:](#no-refactoring-issues) `no-refactoring-issues`
+* [:two:](#architect-for-testability) `architect-for-testability`
+* [:three:](#embody-the-maintainer) `embody-the-maintainer`
+* [:four:](#easier-when-practiced) `easier-when-practiced`
+* [:five:](#invest-in-tomorrow) `invest-in-tomorrow`
 
 ---
 
@@ -304,32 +332,22 @@ Technical, because the first steps to a better code base are the hardest, and sk
 name=rules-of-refactoring
 -->
 
-### Rules of refactoring (1)
+### Rules of refactoring
 
-* [:one:](#no-refactoring-issues) `no-refactoring-issues`
-* [:two:](#opportunistic-in-context) `opportunistic-in-context`
-* [:three:](#easier-when-practiced) `easier-when-practiced`
-* [:four:](#architect-for-testability) `architect-for-testability`
-* [:five:](#embody-the-maintainer) `embody-the-maintainer`
-* [:six:](#invest-in-tomorrow) `invest-in-tomorrow`
-
----
-
-<!--config
-name=rules-of-refactoring-2
--->
-
-### Rules of refactoring (2)
-
-* [:seven:](#know-what-and-why) `know-what-and-why`
+* [:six:](#know-what-and-why) `know-what-and-why`
+* [:seven:](#opportunistic-in-context) `opportunistic-in-context`
 * [:eight:](#make-it-explicit) `make-it-explicit`
 * [:nine:](#improve-substantially) `improve-substantially`
 
 ---
 
+<!--config
+name=note-to-managers
+-->
+
 ### Note to managers
 
-* Make being a good maintainer part of your team's culture
+* Empower your peers, setup a [healthy environment](#environment)
 * Provide clear expectations, establish [accountability](https://www.merriam-webster.com/dictionary/accountability)
 * Empower your peers to live by [the rules of refactoring](#rules-of-refactoring)
 * Setup [friendly reminders](#definition-of-done)
@@ -370,3 +388,11 @@ name=definition-of-done
 -->
 
 ![definition of done](./definition-of-done.png)
+
+---
+
+## Refactoring and (re-) architecting are related activities
+
+---
+
+[![](./lean-architecture.png)](https://nikku.github.io/talks/2021-lean-architecture)
