@@ -40,7 +40,7 @@ We plan to do `X` as a first step towards a higher goal, but never follow up.
 
 The environment in which an application operates changes, rendering UIs outdated and dependencies vulnerable.
 
-It decays in code and user experience, whether we evolve it or not.
+An application decays in code and user experience, whether you touch it or not.
 
 ---
 
