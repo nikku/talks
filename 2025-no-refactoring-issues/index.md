@@ -12,15 +12,23 @@ author: Nico Rehwaldt
 
 ---
 
+#### :memo: Exercise your own judgement as you digest the contents of this presentation.
+
+---
+
 ## Understanding *accidental* and *essential* complexity in software engineering.
 
 ---
 
-#### *Accidental* complexity is what engineers create and can fix.
-
 #### *Essential* (inherent) complexity is caused by the problem to be solved, and cannot be removed.
 
+#### *Accidental* complexity is what engineers create and can fix.
+
 <small>Adapted from [No silver bullet](https://en.wikipedia.org/wiki/No_Silver_Bullet)</small>
+
+---
+
+## *Accidental complexity*
 
 ---
 
@@ -32,19 +40,37 @@ We plan to do `X` as a first step towards a higher goal, but never follow up.
 
 ----
 
-#### We introduce accidental complexity all the time, through leaky abstractions, half-baked trade-offs, and "quick fixes".
+### Accidental complexity is often caused at design time, by insufficient understanding of the business domain.
 
 ---
 
-### Accidental complexity is inevitable
+### :speech_balloon: "Make this button red!"
 
-The environment in which an application operates changes, rendering UIs outdated and dependencies vulnerable.
-
-An application decays in code and user experience, whether you touch it or not.
+### :question: "Should the user be able to execute this irreversible operation?"
 
 ---
 
-### We want to have measures to keep our applications in check.
+<!--config
+theme=eco
+-->
+
+#### [Most software] breaks because *teams [don't have or] lose alignment with the business problem they’re supposed to solve*. Systems become tangled with technical assumptions that age poorly ([ref](https://blog.bytebytego.com/p/domain-driven-design-ddd-demystified)).
+
+---
+
+### Accidental complexity is *inevitable*
+
+Environments change, requirements change, rendering functionality outdated and dependencies vulnerable.
+
+Over time any application decays in code and user experience, whether you touch it or not.
+
+---
+
+### We *introduce accidental complexity all the time*, through leaky abstractions, half-baked trade-offs, and "quick fixes".
+
+---
+
+### We want to *have measures to keep our applications in check*.
 
 ---
 
@@ -60,15 +86,15 @@ An application decays in code and user experience, whether you touch it or not.
 
 ---
 
-### How to tame it? Through *refactoring*.
+## How to tame it? Through *refactoring*.
 
 ---
 
-#### Refactoring is a [...] technique for restructuring an existing body of code, altering its internal structure without changing its external behavior. ([ref](https://refactoring.com/))
+#### Refactoring is a [...] technique for restructuring an existing body of code, altering its internal structure without changing its external behavior ([ref](https://refactoring.com/)).
 
 ---
 
-#### The goal of refactoring is to adapt existing code to make new changes straightforward.
+#### The goal of refactoring is to *adapt existing code* to *make new changes straightforward*.
 
 ---
 
@@ -132,7 +158,7 @@ An application decays in code and user experience, whether you touch it or not.
 name=no-refactoring-issues
 -->
 
-### :one: `no-refactoring-issues` - do not allow "refactoring issues", fix things you encounter.
+### :one: `no-refactoring-issues` - do not give yourself an easy excuse to offload work to your future self.
 
 ---
 
@@ -148,11 +174,31 @@ name=no-refactoring-issues
 
 ---
 
+### :bulb: A high functional test coverage gives you peace of mind that regardless of how much code you change things will be ok for your users.
+
+---
+
 <!--config
 name=architect-for-testability
 -->
 
 ### :two: `architect-for-testability` - build a system that is easy to test, and it will be well composed, easier to maintain, and understand. Support it with a comprehensive, fast, and reliable test suite.
+
+---
+
+### :speech_balloon: "I don't understand what our users are doing."
+
+---
+
+### :question: "How do you want to build a great experience supporting them?"
+
+---
+
+<!--config
+name=understand-the-business-domain
+-->
+
+### :three: `understand-the-business-domain` - know what problems for your users have, and choose the tools to support them wisely.
 
 ---
 
@@ -172,7 +218,7 @@ name=architect-for-testability
 name=easier-when-practiced
 -->
 
-### :three: `easier-when-practiced` - Yes, refactoring can be complicated. It only gets harder if we don't practice it, or let the code base erode further. *Start refactoring today.*
+### :four: `easier-when-practiced` - Yes, refactoring can be complicated. It only gets harder if we don't practice it, or let the code base erode further. *Start refactoring today.*
 
 ---
 
@@ -192,7 +238,7 @@ name=easier-when-practiced
 name=embody-the-maintainer
 -->
 
-### :four: `embody-the-maintainer` - ensure that the maintainer perspective is part of everything you do. Add it to your _definition of done_, enforce it.
+### :five: `embody-the-maintainer` - ensure that the maintainer perspective is part of everything you do. Add it to your _definition of done_, enforce it.
 
 ---
 
@@ -208,7 +254,7 @@ name=embody-the-maintainer
 name=invest-in-tomorrow
 -->
 
-### :five: `invest-in-tomorrow` - do not accept today's excuses, invest reasonably to *set yourself up for (your) future success*.
+### :six: `invest-in-tomorrow` - do not accept today's excuses, invest reasonably to *set yourself up for (your) future success*.
 
 ---
 
@@ -238,7 +284,7 @@ theme=eco
 name=opportunistic-in-context
 -->
 
-### :five: `opportunistic-in-context` - make reasonable efforts to clean up the mess you encounter, while you have context. *It is cheaper now.*
+### :seven: `opportunistic-in-context` - make reasonable efforts to clean up the mess you encounter, while you have context. *It is cheaper now.*
 
 ---
 
@@ -258,7 +304,7 @@ name=opportunistic-in-context
 name=know-what-and-why
 -->
 
-### :seven: `know-what-and-why` - understand what you do and why, before you do. Use the plan to assess if the actual step of doing is *feasible* and *worth the effort*. If in doubt, get a second opinion.
+### :eight: `know-what-and-why` - understand what you do and why, before you do. Use the plan to *assess* if the actual step of doing is *feasible* and *worth the effort*. If in doubt, get a second opinion.
 
 ---
 
@@ -274,7 +320,7 @@ name=know-what-and-why
 name=make-it-explicit
 -->
 
-### :eight: `make-it-explicit` - Separate refactoring and feature development. Document [what changes, why](#know-what-and-why). Structure work in multiple PRs, or multiple commits.
+### :nine: `make-it-explicit` - separate refactoring and feature development. Document [what changes, why](#know-what-and-why). Structure work in multiple PRs, or multiple commits.
 
 ---
 
@@ -290,7 +336,7 @@ name=make-it-explicit
 name=improve-substantially
 -->
 
-### :nine: `improve-substantially` - Cosmetic changes are a waste of time and attention - refactor where it is worth the effort. Manage technical debt wisely, you'll never fully get rid of it anyway.
+### :keycap_ten:  `improve-substantially` - cosmetic changes are a waste of time and attention - refactor where it is worth the effort. Manage technical debt wisely, you'll never fully get rid of it anyway.
 
 ---
 
@@ -322,9 +368,10 @@ name=environment
 
 * [:one:](#no-refactoring-issues) `no-refactoring-issues`
 * [:two:](#architect-for-testability) `architect-for-testability`
-* [:three:](#embody-the-maintainer) `embody-the-maintainer`
-* [:four:](#easier-when-practiced) `easier-when-practiced`
-* [:five:](#invest-in-tomorrow) `invest-in-tomorrow`
+* [:three:](#understand-the-business-domain) `understand-the-business-domain`
+* [:four:](#embody-the-maintainer) `embody-the-maintainer`
+* [:five:](#easier-when-practiced) `easier-when-practiced`
+* [:six:](#invest-in-tomorrow) `invest-in-tomorrow`
 
 ---
 
@@ -334,10 +381,10 @@ name=rules-of-refactoring
 
 ### Rules of refactoring
 
-* [:six:](#know-what-and-why) `know-what-and-why`
-* [:seven:](#opportunistic-in-context) `opportunistic-in-context`
-* [:eight:](#make-it-explicit) `make-it-explicit`
-* [:nine:](#improve-substantially) `improve-substantially`
+* [:seven:](#know-what-and-why) `know-what-and-why`
+* [:eight:](#opportunistic-in-context) `opportunistic-in-context`
+* [:nine:](#make-it-explicit) `make-it-explicit`
+* [:keycap_ten:](#improve-substantially) `improve-substantially`
 
 ---
 
@@ -349,7 +396,7 @@ name=note-to-managers
 
 * Empower your peers, setup a [healthy environment](#environment)
 * Provide clear expectations, establish [accountability](https://www.merriam-webster.com/dictionary/accountability)
-* Empower your peers to live by [the rules of refactoring](#rules-of-refactoring)
+* Encourage folks to live by [the rules of refactoring](#rules-of-refactoring)
 * Setup [friendly reminders](#definition-of-done)
 
 ---
