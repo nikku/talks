@@ -17,3 +17,7 @@ What super-powers a team, and the organization it works in? Some thoughts.
 ---
 
 Picture available as an [excalidraw scene](./team-jobs-environment-composition.excalidraw).
+
+---
+
+See also [strategy vs. vision](https://donalsuter.com/mission-vision-strategy/).
