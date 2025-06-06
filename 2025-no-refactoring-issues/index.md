@@ -304,7 +304,7 @@ name=opportunistic-in-context
 name=know-what-and-why
 -->
 
-### :eight: `know-what-and-why` - understand what you do and why, before you do. Use the plan to *assess* if the actual step of doing is *feasible* and *worth the effort*. If in doubt, get a second opinion.
+### :eight: `know-what-and-why` - understand [what you do and why](https://fs.blog/chestertons-fence/), before you do. Use the plan to *assess* if the actual step of doing is *feasible* and *worth the effort*. If in doubt, get a second opinion.
 
 ---
 
