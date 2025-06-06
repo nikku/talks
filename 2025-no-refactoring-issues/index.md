@@ -198,7 +198,7 @@ name=architect-for-testability
 name=understand-the-business-domain
 -->
 
-### :three: `understand-the-business-domain` - know what problems for your users have, and choose the tools to support them wisely.
+### :three: `understand-the-business-domain` - know what problems your users have, and choose the tools to support them wisely.
 
 ---
 
