@@ -1,0 +1,11 @@
+sequenceDiagram
+    participant User
+    participant GitHub
+    participant GitHub Bot
+    User-->>GitHub: UI action / Git Push
+    GitHub-->>GitHub Bot: Event (s)
+    GitHub Bot-->>GitHub: API Call(s)
+    GitHub-->>User: UI update / notification
+    GitHub-->>GitHub Bot: Event(s)
+    GitHub Bot-->>GitHub: API Call(s)
+    Note left of GitHub: And so on...
