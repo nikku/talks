@@ -54,7 +54,7 @@ We plan to do `X` as a first step towards a higher goal, but never follow up.
 theme=eco
 -->
 
-#### [Most software] breaks because *teams [don't have or] lose alignment with the business problem they’re supposed to solve*. Systems become tangled with technical assumptions that age poorly ([ref](https://blog.bytebytego.com/p/domain-driven-design-ddd-demystified)).
+#### [Most software] breaks because *teams lose alignment with the business problem they’re supposed to solve*. Systems become tangled with technical assumptions that age poorly ([ref](https://blog.bytebytego.com/p/domain-driven-design-ddd-demystified)).
 
 ---
 
