@@ -34,7 +34,7 @@ author: Nico Rehwaldt
 
 ### Accidental complexity has many forms, in code and UX
 
-A quick fix enables interaction `A`; now, the existing user journey `B` is broken.
+A quick fix enables interaction `A`. As a result, the user journey `B` is broken.
 
 We plan to do `X` as a first step towards a higher goal, but never follow up.
 
