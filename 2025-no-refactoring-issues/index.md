@@ -40,6 +40,10 @@ We plan to do `X` as a first step towards a higher goal, but never follow up.
 
 ----
 
+<!--config
+name=accidental-complexity-design-time
+-->
+
 ### Accidental complexity is often caused at design time, by insufficient understanding of the business domain.
 
 ---
@@ -173,6 +177,10 @@ name=no-refactoring-issues
 ### :loudspeaker: "*Our (automated) testing practice sucks.* I know I have to fix 1000 tests after this small change."
 
 ---
+
+<!--config
+name=functional-test-coverage
+-->
 
 ### :bulb: A high functional test coverage gives you peace of mind that regardless of how much code you change things will be ok for your users.
 
