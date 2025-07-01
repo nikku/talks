@@ -246,7 +246,7 @@ name=easier-when-practiced
 name=embody-the-maintainer
 -->
 
-### :five: `embody-the-maintainer` - ensure that the maintainer perspective is part of everything you do. Add it to your _definition of done_, enforce it.
+### :five: `embody-the-maintainer` - ensure that the maintainer perspective is part of [everything you do](https://github.com/nikku/talks/tree/main/2024-team-jobs-environment-composition#jobs-and-environment). Add it to your _definition of done_, enforce it.
 
 ---
 
