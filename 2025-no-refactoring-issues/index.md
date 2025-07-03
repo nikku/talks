@@ -130,6 +130,10 @@ Over time any application decays in code and user experience, whether you touch 
 
 ---
 
+<!--config
+name=paths-traveled
+-->
+
 [![Two paths, one is less traveled](./paths-traveled-1.png)](https://medium.com/@davidbillson/allowing-for-change-abcf02338251)
 
 ---
