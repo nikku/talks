@@ -142,7 +142,15 @@ Over time any application decays in code and user experience, whether you touch 
 
 ---
 
-## Rules of (not) refactoring
+## Rules of (not) Refactoring
+
+---
+
+<!--config
+theme=funky
+-->
+
+#### Our environment shapes us and we shape our environment.
 
 ---
 
@@ -238,7 +246,7 @@ name=easier-when-practiced
 
 ---
 
-### :question: Who on your team has cleaner in their job description? Who ensures things are maintainable for the long run?
+### :question: Who on your team ensures things are maintainable for the long run?
 
 ---
 
@@ -280,6 +288,14 @@ theme=eco
 
 ---
 
+<!--config
+theme=funky
+-->
+
+#### The way we approach things makes all the difference.
+
+---
+
 ### :speech_balloon: "Next time we should clean this up."
 
 ---
@@ -292,7 +308,7 @@ theme=eco
 name=opportunistic-in-context
 -->
 
-### :seven: `opportunistic-in-context` - make reasonable efforts to clean up the mess you encounter, while you have context. *It is cheaper now.*
+### :one: `opportunistic-in-context` - make reasonable efforts to clean up the mess you encounter, while you have context. *It is cheaper now.*
 
 ---
 
@@ -312,7 +328,7 @@ name=opportunistic-in-context
 name=know-what-and-why
 -->
 
-### :eight: `know-what-and-why` - understand [what you do and why](https://fs.blog/chestertons-fence/), before you do. Use the plan to *assess* if the actual step of doing is *feasible* and *worth the effort*. If in doubt, get a second opinion.
+### :two: `know-what-and-why` - understand [what you do and why](https://fs.blog/chestertons-fence/), before you do. Use the plan to *assess* if the actual step of doing is *feasible* and *worth the effort*. If in doubt, get a second opinion.
 
 ---
 
@@ -328,7 +344,7 @@ name=know-what-and-why
 name=make-it-explicit
 -->
 
-### :nine: `make-it-explicit` - separate refactoring and feature development. Document [what changes, why](#know-what-and-why). Structure work in multiple PRs, or multiple commits.
+### :three: `make-it-explicit` - separate refactoring and feature development. Document [what changes, why](#know-what-and-why). Structure work in multiple PRs, or multiple commits.
 
 ---
 
@@ -344,7 +360,31 @@ name=make-it-explicit
 name=improve-substantially
 -->
 
-### :keycap_ten:  `improve-substantially` - cosmetic changes are a waste of time and attention - refactor where it is worth the effort. Manage technical debt wisely, you'll never fully get rid of it anyway.
+### :four:  `improve-substantially` - cosmetic changes are a waste of time and attention - refactor where it is worth the effort. Manage technical debt wisely, you'll never fully get rid of it anyway.
+
+---
+
+### :speech_balloon: "I refactored our test suite."
+
+---
+
+### :loudspeaker: "Now there is five ways to write our E2E tests."
+
+---
+
+[![Fortunately, the charging one has been solved now that we've all standardized on mini-USB. Or is it micro-USB? Shit. - XKCD/927](./standards_2x.png)](https://xkcd.com/927/)
+
+---
+
+### :bulb: Every additional pattern you introduce puts a mental toll on your future self.
+
+---
+
+<!--config
+name=finish-what-you-started
+-->
+
+### :five:  `finish-what-you-started` - ensure new patterns are recognizable and fully adopted, at the very least on the the happy path of your application. Unbuild old cruft.
 
 ---
 
@@ -389,10 +429,11 @@ name=rules-of-refactoring
 
 ### Rules of refactoring
 
-* [:seven:](#know-what-and-why) `know-what-and-why`
-* [:eight:](#opportunistic-in-context) `opportunistic-in-context`
-* [:nine:](#make-it-explicit) `make-it-explicit`
-* [:keycap_ten:](#improve-substantially) `improve-substantially`
+* [:one:](#know-what-and-why) `know-what-and-why`
+* [:two:](#opportunistic-in-context) `opportunistic-in-context`
+* [:three:](#make-it-explicit) `make-it-explicit`
+* [:four:](#improve-substantially) `improve-substantially`
+* [:five:](#finish-what-you-started) `finish-what-you-started`
 
 ---
 
