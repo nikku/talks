@@ -114,7 +114,7 @@ Over time any application decays in code and user experience, whether you touch 
 
 ---
 
-#### Refactoring keeps the system fit for purpose and the velocity in check.
+#### Refactoring keeps the velocity in check.
 
 ---
 
