@@ -2,6 +2,13 @@
 title: How the engine works
 description: A lightweight introduction to "engines", anchored at Camunda 8, working with computers, and key jobs-to-be done when operating them.
 author: Nico Rehwaldt (https://github.com/nikku)
+authorTwitter: '@nrehwaldt'
+image: https://nikku.github.io/talks/2025-how-the-engine-works/preview.png
+origin: https://github.com/nikku/talks/tree/main/2025-how-the-engine-works
+tags:
+  - Camunda
+  - Computer Foundations
+type: article
 ---
 
 ## _How the engine works_
