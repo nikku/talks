@@ -6,13 +6,13 @@ author: Nico Rehwaldt
 
 # *No Refactoring Issues*
 
-#### The inevitable cleanup, and how not to do it.
+## The inevitable cleanup, and how not to do it.
 
 <small>[`Nico Rehwaldt`](https://github.com/nikku) 2025</small>
 
 ---
 
-#### :memo: Exercise your own judgement as you digest the contents of this presentation.
+### :memo: Exercise your own judgement as you digest the contents of this presentation.
 
 ---
 
@@ -20,9 +20,9 @@ author: Nico Rehwaldt
 
 ---
 
-#### *Essential* (inherent) complexity is caused by the problem to be solved, and cannot be removed.
+### *Essential* (inherent) complexity is caused by the problem to be solved, and cannot be removed.
 
-#### *Accidental* complexity is what engineers create and can fix.
+### *Accidental* complexity is what engineers create and can fix.
 
 <small>Adapted from [No silver bullet](https://en.wikipedia.org/wiki/No_Silver_Bullet)</small>
 
@@ -58,7 +58,7 @@ name=accidental-complexity-design-time
 theme=eco
 -->
 
-#### [Most software] breaks because *teams lose alignment with the business problem they’re supposed to solve*. Systems become tangled with technical assumptions that age poorly ([ref](https://blog.bytebytego.com/p/domain-driven-design-ddd-demystified)).
+### [Most software] breaks because *teams lose alignment with the business problem they’re supposed to solve*. Systems become tangled with technical assumptions that age poorly ([ref](https://blog.bytebytego.com/p/domain-driven-design-ddd-demystified)).
 
 ---
 
@@ -82,7 +82,7 @@ Over time any application decays in code and user experience, whether you touch 
 
 ---
 
-#### [Technical debt is] a collection of design or implementation constructs that make future changes more costly or impossible ([ref](https://en.wikipedia.org/wiki/Technical_debt)).
+### [Technical debt is] a collection of design or implementation constructs that make future changes more costly or impossible ([ref](https://en.wikipedia.org/wiki/Technical_debt)).
 
 ---
 
@@ -94,15 +94,15 @@ Over time any application decays in code and user experience, whether you touch 
 
 ---
 
-#### Refactoring is a [...] technique for restructuring an existing body of code, altering its internal structure without changing its external behavior ([ref](https://refactoring.com/)).
+### Refactoring is a [...] technique for restructuring an existing body of code, altering its internal structure without changing its external behavior ([ref](https://refactoring.com/)).
 
 ---
 
-#### The goal of refactoring is to *adapt existing code* to *make new changes straightforward*.
+### The goal of refactoring is to *adapt existing code* to *make new changes straightforward*.
 
 ---
 
-#### Refactoring ensures that the application, over time, stays fit for purpose, for its use.
+### Refactoring ensures that the application, over time, stays fit for purpose, for its use.
 
 ---
 
@@ -114,7 +114,7 @@ Over time any application decays in code and user experience, whether you touch 
 
 ---
 
-#### Refactoring keeps the velocity in check.
+### Refactoring keeps the velocity in check.
 
 ---
 
@@ -122,11 +122,11 @@ Over time any application decays in code and user experience, whether you touch 
 
 ---
 
-#### By doing it *continuously*, we *keep the effort low*.
+### By doing it *continuously*, we *keep the effort low*.
 
 ---
 
-#### By doing it *continuously*, we *make it a habit*, a normal thing, an inherent part of our developer tool belt. We make it a path traveled.
+### By doing it *continuously*, we *make it a habit*, a normal thing, an inherent part of our developer tool belt. We make it a path traveled.
 
 ---
 
@@ -138,7 +138,7 @@ name=paths-traveled
 
 ---
 
-#### By doing it *opportunistically*, *focusing on the current task* at hand, we ensure that *we do it where it matters most*: in critical code paths.
+### By doing it *opportunistically*, *focusing on the current task* at hand, we ensure that *we do it where it matters most*: in critical code paths.
 
 ---
 
@@ -154,7 +154,7 @@ name=paths-traveled
 theme=funky
 -->
 
-#### Our environment shapes us and we shape our environment.
+### Our environment shapes us and we shape our environment.
 
 ---
 
@@ -296,7 +296,7 @@ theme=eco
 theme=funky
 -->
 
-#### The way we approach things makes all the difference.
+### The way we approach things makes all the difference.
 
 ---
 
@@ -416,7 +416,7 @@ Technical, because the first steps to a better code base are the hardest, and sk
 name=environment
 -->
 
-### Environment
+## Environment
 
 * [:one:](#no-refactoring-issues) `no-refactoring-issues`
 * [:two:](#architect-for-testability) `architect-for-testability`
@@ -431,7 +431,7 @@ name=environment
 name=rules-of-refactoring
 -->
 
-### Rules of refactoring
+## Rules of refactoring
 
 * [:one:](#know-what-and-why) `know-what-and-why`
 * [:two:](#opportunistic-in-context) `opportunistic-in-context`
@@ -445,7 +445,7 @@ name=rules-of-refactoring
 name=note-to-managers
 -->
 
-### Note to managers
+## Note to managers
 
 * Empower your peers, setup a [healthy environment](#environment)
 * Provide clear expectations, establish [accountability](https://www.merriam-webster.com/dictionary/accountability)
@@ -479,7 +479,7 @@ name=note-to-managers
 
 ---
 
-## Simple reminders can go a long way
+### Simple reminders can go a long way
 
 ---
 
@@ -491,7 +491,7 @@ name=definition-of-done
 
 ---
 
-## Refactoring and (re-) architecting are related activities
+### Refactoring and (re-) architecting - two related activities
 
 ---
 
