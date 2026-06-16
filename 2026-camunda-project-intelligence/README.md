@@ -1,4 +1,4 @@
-# Project Intelligence
+# Camunda Project Intelligence
 
 A lightning talk on project intelligence, what it is, and how our users would benefit.
 
