@@ -77,4 +77,4 @@ The tooling derives knowledge from available intelligence:
 
 ## Relation to agentic development
 
-Intelligence is available standalone ("headless"), so both robots (via CLI) and humans (via editor UI) can consume it. Agentic development can benefit in the same way, humans do.
+Intelligence is available standalone ("headless"), so both robots (via CLI) and humans (via editor UI) can consume it. Agentic development can benefit in the same way that humans do.
