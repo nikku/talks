@@ -7,7 +7,7 @@ A lightning talk on project intelligence, what it is, and how our users would be
 
 In a typical Camunda automation project one BPMN process links to many external sources.
 
-![Project setup - one BPMN, links many external sources](./project-setup.png).
+![Project setup - one BPMN, links many external sources](./project-setup.png)
 
 These resources can be any of:
 
@@ -25,7 +25,7 @@ In the case of re-use, the recommended pattern is to wrap them into an [element 
 
 Is the ability of our tooling to provide smart, helpful and context sensitive assistance to users while creating, modifying or inspecting a BPMN diagram.
 
-![Project intelligence - shared knowledge to derive insights and build assistance on](./editor-intelligence.png).
+![Project intelligence - shared knowledge to derive insights and build assistance on](./editor-intelligence.png)
 
 Project intelligence has two sources: Local intelligence (from the current file/diagram) and project intelligence.
 
