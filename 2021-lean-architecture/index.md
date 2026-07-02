@@ -47,7 +47,7 @@ align=left
 
 ---
 
-[<img src="https://imgs.xkcd.com/comics/dependency_2x.png" height="700" title="XKCD: Dependencies 2347" />](https://xkcd.com/2347/)
+[![XKCD: Dependencies 2347](https://imgs.xkcd.com/comics/dependency_2x.png)](https://xkcd.com/2347/)
 
 ---
 
