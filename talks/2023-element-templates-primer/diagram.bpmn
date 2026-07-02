@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="sid-38422fae-e03e-43a3-bef4-bd33b32041b2" targetNamespace="http://bpmn.io/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="11.1.0">
+  <process id="Process_1" isExecutable="false">
+    <startEvent id="StartEvent_1y45yut" name="Order Placed">
+      <outgoing>SequenceFlow_0h21x7r</outgoing>
+    </startEvent>
+    <sequenceFlow id="SequenceFlow_0h21x7r" sourceRef="StartEvent_1y45yut" targetRef="Task_1hcentk" />
+    <sequenceFlow id="Flow_1vlgr8j" sourceRef="Task_1hcentk" targetRef="Activity_1o64yz7" />
+    <sequenceFlow id="Flow_0zulgri" sourceRef="Activity_1o64yz7" targetRef="Activity_0zgr3gz" />
+    <endEvent id="Event_0u66228" name="Order Delivered">
+      <incoming>Flow_0hepfx0</incoming>
+    </endEvent>
+    <sequenceFlow id="Flow_0hepfx0" sourceRef="Activity_0zgr3gz" targetRef="Event_0u66228" />
+    <task id="Task_1hcentk" name="Collect Money">
+      <incoming>SequenceFlow_0h21x7r</incoming>
+      <outgoing>Flow_1vlgr8j</outgoing>
+    </task>
+    <task id="Activity_1o64yz7" name="Fetch Items">
+      <incoming>Flow_1vlgr8j</incoming>
+      <outgoing>Flow_0zulgri</outgoing>
+    </task>
+    <task id="Activity_0zgr3gz" name="Ship Parcel">
+      <incoming>Flow_0zulgri</incoming>
+      <outgoing>Flow_0hepfx0</outgoing>
+    </task>
+  </process>
+  <bpmndi:BPMNDiagram id="BpmnDiagram_1">
+    <bpmndi:BPMNPlane id="BpmnPlane_1" bpmnElement="Process_1">
+      <bpmndi:BPMNShape id="StartEvent_1y45yut_di" bpmnElement="StartEvent_1y45yut">
+        <omgdc:Bounds x="152" y="102" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="139" y="145" width="65" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0u66228_di" bpmnElement="Event_0u66228">
+        <omgdc:Bounds x="722" y="102" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="701" y="145" width="78" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0rc09jr_di" bpmnElement="Task_1hcentk">
+        <omgdc:Bounds x="240" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0j84vlk_di" bpmnElement="Activity_1o64yz7">
+        <omgdc:Bounds x="400" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1tvzmld_di" bpmnElement="Activity_0zgr3gz">
+        <omgdc:Bounds x="560" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0h21x7r_di" bpmnElement="SequenceFlow_0h21x7r">
+        <omgdi:waypoint x="188" y="120" />
+        <omgdi:waypoint x="240" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1vlgr8j_di" bpmnElement="Flow_1vlgr8j">
+        <omgdi:waypoint x="340" y="120" />
+        <omgdi:waypoint x="400" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0zulgri_di" bpmnElement="Flow_0zulgri">
+        <omgdi:waypoint x="500" y="120" />
+        <omgdi:waypoint x="560" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0hepfx0_di" bpmnElement="Flow_0hepfx0">
+        <omgdi:waypoint x="660" y="120" />
+        <omgdi:waypoint x="722" y="120" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
