@@ -60,11 +60,11 @@ theme=funky
 
 ---
 
-### *We are responsible*—today, and in the future.
+### *We are responsible*—today, and in the future
 
 ---
 
-### We set goals and priorities - What to do, why, when?
+### *We set goals and priorities* - What to do, why, when?
 
 ---
 
@@ -72,11 +72,11 @@ theme=funky
 
 ---
 
-#### Just because it is cheap, does not mean it requires my attention.
+#### Just because it is cheap, does not mean it requires my attention
 
 ---
 
-### We own the outcome - how does a good result look like?
+### *We own the outcome* - how does a good result look like?
 
 ---
 
@@ -84,15 +84,19 @@ theme=funky
 
 ---
 
-### We own the trade-offs.
+### *We own the trade-offs*
 
 ---
+
+<!--config
+name=speed-vs-velocity
+-->
 
 ![](./resources/speed-velocity.svg)
 
 ---
 
-### We shape the environment so co-workers and agents can do their best work.
+### *We shape the environment* so co-workers and agents can do their best work.
 
 ---
 
