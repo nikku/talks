@@ -7,6 +7,7 @@ A list of (technical) talks I gave in recent years.
 ## 2026
 
 * [Working with Robots (2026 version)](./2026-working-with-robots) ([slides](https://nikku.github.io/talks/2026-working-with-robots/))
+* [Camunda Project Intelligence](./2026-camunda-project-intelligence)
 
 ## 2025
 
