@@ -28,7 +28,7 @@ theme=funky
 
 ---
 
-### LLMs give computers "human like" perception, accessible to everyone, in human language.
+### LLMs give computers "humanlike" perception, accessible to everyone, in human language.
 
 ---
 
@@ -72,7 +72,7 @@ theme=funky
 
 ---
 
-#### Just because it is cheap, does not mean it requires my attention
+#### Just because it is cheap, it does not mean it requires my attention
 
 ---
 
@@ -100,7 +100,7 @@ name=speed-vs-velocity
 
 ---
 
-#### We decide on context, we decide on guard rails.
+#### We decide on context, we decide on guardrails.
 
 #### Looking at "what :robot: does, why" is helpful, to understand what it is missing.
 
@@ -118,7 +118,7 @@ theme=funky
 
 ---
 
-### Building is cheap, judgement is not
+### Building is cheap, judgment is not
 
 ---
 
@@ -136,7 +136,7 @@ theme=funky
 
 ### *80/20* - Value version
 
-#### Solve the 80% with 20% of original scope. What are the essential 20%? What do we truely need?
+#### Solve the 80% with 20% of original scope. What are the essential 20%? What do we truly need?
 
 ---
 
@@ -156,7 +156,7 @@ theme=funky
 
 ---
 
-### Detect fuzzieness, where it matters
+### Detect fuzziness, where it matters
 
 ---
 
