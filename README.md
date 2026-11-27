@@ -4,6 +4,10 @@
 
 A list of (technical) talks I gave in recent years.
 
+## 2026
+
+* [Working with Robots (2026 version)](./2026-working-with-robots) ([slides](https://nikku.github.io/talks/2026-working-with-robots/))
+
 ## 2025
 
 * [bpmn.io - Mission and Design Principles](./2025-bpmn-io-mission-design-principles)
