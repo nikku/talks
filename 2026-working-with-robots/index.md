@@ -60,11 +60,11 @@ theme=funky
 
 ---
 
-### *We are responsible*—today, and in the future
+### *We are responsible*—today, and in the future.
 
 ---
 
-### *We set goals and priorities* - What to do, why, when?
+### *We set goals and priorities*. What to do, why, when?
 
 ---
 
@@ -72,11 +72,11 @@ theme=funky
 
 ---
 
-#### Just because it is cheap, it does not mean it requires my attention
+#### 💡 Just because it is cheap, it does not mean it requires my attention.
 
 ---
 
-### *We own the outcome* - how does a good result look like?
+### *We own the outcome*. How does a good result look like?
 
 ---
 
@@ -84,7 +84,7 @@ theme=funky
 
 ---
 
-### *We own the trade-offs*
+### *We own the trade-offs*.
 
 ---
 
@@ -114,19 +114,19 @@ theme=funky
 
 ---
 
-### Building is cheap
+### ⁉️ Building is cheap
 
 ---
 
-### Building is cheap, judgment is not
+### ➡️ Building is cheap, judgment is not
 
 ---
 
-### Building is cheap, ownership is not
+### ➡️ Building is cheap, ownership is not
 
 ---
 
-### Not building something may be even cheaper
+### 💡 Not building something may be even cheaper
 
 ---
 
@@ -134,13 +134,13 @@ theme=funky
 
 ---
 
-### *80/20* - Value version
+### 📒 *80/20* rule, value version
 
 #### Solve the 80% with 20% of original scope. What are the essential 20%? What do we truly need?
 
 ---
 
-### Alignment and consolidation are not cheap.
+### ➡️ Alignment and consolidation are not cheap.
 
 ---
 
@@ -148,15 +148,15 @@ theme=funky
 
 ---
 
-### Detecting critical (software, organizational, design) bugs, you better do it early.
+### ➡️ Detecting critical (software, organizational, design) bugs, you better do it early.
 
 ---
 
-### Learn from your mistakes, you better do it always.
+### ➡️ Learn from your mistakes, you better do it always.
 
 ---
 
-### Detect fuzziness, where it matters
+### ➡️ Detect fuzziness, where it matters
 
 ---
 
