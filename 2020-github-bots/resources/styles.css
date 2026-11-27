@@ -1,0 +1,7 @@
+div[name="wrapper"] {
+  padding: 0 50px;
+}
+
+img {
+  object-fit: scale-down !important;
+}

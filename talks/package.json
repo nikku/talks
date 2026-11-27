@@ -1,0 +1,7 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "description": "Talks given at various occasions",
+  "author": "Nico Rehwaldt (https://github.com/nikku)",
+  "private": true
+}
