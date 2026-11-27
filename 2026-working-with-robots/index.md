@@ -182,7 +182,7 @@ theme=funky
 
 ---
 
-![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.greekboston.com%2Fwp-content%2Fuploads%2F2017%2F02%2FSocrates.jpg&f=1&nofb=1&ipt=d38f9565cd82667ab9c2834f6f4e9135e2f11b5457cf27cc4b7d9a4f1d17d4a6&ipo=images)
+[![](./resources/socrates.jpg)](![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.greekboston.com%2Fwp-content%2Fuploads%2F2017%2F02%2FSocrates.jpg&f=1&nofb=1&ipt=d38f9565cd82667ab9c2834f6f4e9135e2f11b5457cf27cc4b7d9a4f1d17d4a6&ipo=images))
 
 ---
 
@@ -190,7 +190,7 @@ theme=funky
 
 ---
 
-![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fpremium-photo%2Fbustling-ancient-greek-marketplace-athens_818261-86547.jpg%3Fw%3D2000&f=1&nofb=1&ipt=96d86b825fde1b9b3e431e85111fccf681f7adb495273e61da9a50a4f2836781&ipo=images)
+[![](./resources/marketplace.jpg)](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fpremium-photo%2Fbustling-ancient-greek-marketplace-athens_818261-86547.jpg%3Fw%3D2000&f=1&nofb=1&ipt=96d86b825fde1b9b3e431e85111fccf681f7adb495273e61da9a50a4f2836781&ipo=images)
 
 ---
 
